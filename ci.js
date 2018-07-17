@@ -7,7 +7,6 @@ console.log('ci:build-lobby:done')
 console.log('ci:build-bj:start')
 console.log('ci:build-bj:done')
 
-
 console.log('ci:delete-cdn:start')
 console.log('ci:delete-cdn:done')
 

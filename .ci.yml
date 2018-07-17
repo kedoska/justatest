@@ -1,3 +1,4 @@
 push:
   container: node
   script: ./ci.js
+  only: master
