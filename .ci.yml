@@ -1,4 +1,15 @@
 push:
-  container: node
-  script: ./ci.js
-  only: master
+  only: dev
+  steps:
+    a:
+      filter: "src/step1.js"
+      container: node
+      script: ./step1.js
+    b:
+      filter: "src/step2.js"
+      container: node
+      script: ./step2.js
+    c:
+      filter: "src/step3.js"
+      container: node
+      script: ./step3.js
