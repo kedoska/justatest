@@ -7,7 +7,7 @@ console.log('ci:build-lobby:done')
 console.log('ci:build-bj:start')
 console.log('ci:build-bj:done')
 
-console.log('222222222222222222222222222')
+console.log('222222222222222222222222222 !!!!')
 
 console.log('ci:delete-cdn:start')
 console.log('ci:delete-cdn:done')
